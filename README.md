@@ -85,4 +85,19 @@ The application is built using **Node.js, Express.js, MongoDB, and EJS**, follow
 
 ## 📂 Project Structure
 
-
+Wanderlust/
+│
+├── models/ # Mongoose schemas (User, Listing, Review)
+├── routes/ # Express route files
+├── controllers/ # Route logic/controllers
+├── views/ # EJS templates
+│ ├── layouts/
+│ ├── listings/
+│ ├── users/
+│ └── includes/
+├── public/ # Static files (CSS, JS, images)
+├── utils/ # Custom utilities (ExpressError, wrapAsync)
+├── .env # Environment variables
+├── app.js # Main application file
+├── package.json
+└── README.md
